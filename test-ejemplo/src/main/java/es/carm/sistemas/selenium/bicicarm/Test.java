@@ -34,7 +34,7 @@ public class Test {
             
             resultado.setOk("Test Correcto");
 
-            this.baseUrl = "http://www.carm.es";
+            this.baseUrl = "http://bici.carm.es";
 
             inicio = System.currentTimeMillis();
             driver.get(baseUrl);
@@ -93,7 +93,10 @@ public class Test {
             resultado.setCritical("Excepcion en el Test");
 
         } finally {
-            driver.quit();
+	    try {
+	            driver.quit();
+            }catch(Exception x) {
+            }
             return resultado;
         }
     }
