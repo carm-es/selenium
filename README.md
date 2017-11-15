@@ -31,9 +31,9 @@ docker run --link selenium-hub:hub  selenium/node-firefox
 
 Para más información, podrá consultar:
 
-* La documentación que el departamento de sistemas ha elaborado
+* La [documentación en PDF](https://carm-es.github.io/selenium/Guia_Selenium_SSI.pdf) que el departamento de sistemas ha elaborado
 
-* La documentación del paquete SeleniumCarm.jar
+* La [documentación JavaDOC](https://carm-es.github.io/selenium/javadoc/index.html) del paquete SeleniumCarm.jar
 
 
 ### Aplicación de ejemplo
